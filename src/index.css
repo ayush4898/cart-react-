@@ -16,11 +16,12 @@ code {
 .cart{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 80vh;
 }
 
 .cart-item {
-display: inline-flex;
+display: flex;
 margin: 20px 10px;
 }
 
